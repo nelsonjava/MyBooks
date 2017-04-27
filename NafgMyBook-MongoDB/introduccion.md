@@ -1,0 +1,49 @@
+# Instalar:
+
+* mongod --dbpath D:\javadat\mongodb-data\database
+
+* mongod --dbpath D:\javadat\mongodb-data\database --repair
+
+* mongodb Web Interface: http://localhost:28017/
+
+# Comandos
+
+* show databases
+
+* show dbs
+
+* use test
+
+* show collections
+
+* db.custumer.find() - Muestra los registros
+
+* db.people.find().pretty() - Muestra los registros de una forma m&#225;s legible
+
+* cur = db.people.find(); null;
+
+* db.people.count() - Cuenta los documentos
+
+* db.people.findOne( { name: "Jose David" } ) - Muestra un registro de forma aleatoria
+
+* db.custumer.remove() - Elimina los registros
+
+* db.dropDatabase() - Elimina la Base de Datos
+
+# GitHub
+
+* https://github.com/nelsonjava/mongodb
+
+# Desarrollo Java
+
+* java -jar target/myapp-1.0-SNAPSHOT.jar
+
+# Ejemplos
+
+* https://github.com/adriannovegil/mongodb-examples - Ejemplos de uso del API Java para MongoDB
+
+* https://github.com/alizarion/mongodb-jee - Ejemplos.
+
+# Play framework
+
+* http://playdoces.appspot.com/[http://playdoces.appspot.com/]
